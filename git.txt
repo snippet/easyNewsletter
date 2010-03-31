@@ -1,0 +1,38 @@
+
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email jeffersonlpti@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir easyNewsletter
+  cd easyNewsletter
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:snippet/easyNewsletter.git
+  git push origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:snippet/easyNewsletter.git
+  git push origin master
+      
+
+Importing a Subversion Repo?
+
+  Click here
+      
+
+When you're done:
+
+  Continue
+
+
